@@ -1,0 +1,22 @@
+<h1>Todo List</h1>
+<div class="todo-app">
+  <div class="upper">
+    <input type="text" #newTodo class="input" />
+    <button (click)="add(newTodo.value); newTodo.value = ''">add</button>
+  </div>
+  <hr />
+  <table>
+    <tr>
+      <th>Label</th>
+      <th>Priority</th>
+      <th>Done</th>
+      <th>Actions</th>
+    </tr>
+    <tr *ngFor="let get todo of todos">
+      <td>{{ todo.label }}.</td>
+      <td>{{ todo.priority }}</td>
+      <td>{{ todo.done ? "&#10003;" : "&#10005;" }}.</td>
+      <td><button (click)="delete(todo)">delete</button></td>
+    </tr>
+  </table>
+</div>

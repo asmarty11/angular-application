@@ -1,0 +1,50 @@
+
+*{
+
+    margin:0px;
+    padding: 0px;
+}
+
+.todo-app{
+
+    justify-content: space-around;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding-top: 20px;
+}
+.upper{
+    padding-left: 70px;
+
+}
+
+th {
+    padding-left: 40px;
+}
+
+button {
+    color: #fff;
+    background-color:#A45EE5;
+    border: grey;
+    padding: 5px 15px;
+    justify-content: space-between;
+    align-self: center;
+    border-radius: 4px;
+    margin: 2px;
+    
+}
+td{
+    justify-content: space-between;
+    padding-left: 40px;
+}
+h1{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+.input {
+    margin-left: 20px;
+    
+}
+
+
